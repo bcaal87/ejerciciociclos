@@ -1,6 +1,6 @@
 ﻿// DECLARAMOS LAS VARIABLES
 
-string nombreUsuarioGuardado;
+string userNameSalved;
 string contraseñaUsuarioGuardado;
 string nombreUsuario;
 string contraseñaUsuario;
@@ -10,7 +10,7 @@ bool sesionOK = false;
 //Pedimos al usuario ingresar datos  - Crear cuenta usuario
 Console.WriteLine("*******Nueva cuenta de Usuario******");
 Console.Write("Ingrese su usuario");
-nombreUsuarioGuardado = Console.ReadLine();
+userNameSalved = Console.ReadLine();
 Console.Write("Ingrese su contraseña");
 contraseñaUsuarioGuardado = Console.ReadLine();
 Console.WriteLine("******¡Cuentra creada correctamente!");
@@ -25,7 +25,7 @@ do
     Console.Write("Escriba Contraseña: ");
     contraseñaUsuario = Console.ReadLine();
 
-    if (nombreUsuario.Equals(nombreUsuarioGuardado) && contraseñaUsuario.Equals(contraseñaUsuarioGuardado))
+    if (nombreUsuario.Equals(userNameSalved) && contraseñaUsuario.Equals(contraseñaUsuarioGuardado))
     { 
     sesionOK = true;
         Console.WriteLine("¡Sesion iniciada correctamente");
