@@ -1,6 +1,6 @@
 ﻿// DECLARAMOS LAS VARIABLES
 
-string userNameSalved;
+var userNameSalved = "";
 string contraseñaUsuarioGuardado;
 string nombreUsuario;
 string contraseñaUsuario;
