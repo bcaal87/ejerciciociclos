@@ -15,7 +15,7 @@ Console.Write("Ingrese su contraseña");
 contraseñaUsuarioGuardado = Console.ReadLine();
 Console.WriteLine("******¡Cuentra creada correctamente!");
 
-//Ahora vamos a simular el inicio de sesión
+//Ahora iniciaremos sesion
 
 do
 {
